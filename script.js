@@ -1,0 +1,1 @@
+GitHubCalendar('.calendar', "Ssrikanht4c", {responsive:!0})

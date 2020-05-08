@@ -1,0 +1,41 @@
+#profile, #stats{
+background: #0E6E84;
+}
+#profilePic img, .stats{
+    height: 150px;
+    width: 150px;
+    border: 15px solid #FFC831;
+}
+#smallCircle{
+    background: #FFC831;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    
+    /* offset-position:relative; */
+}
+#name{
+    font-family: Open sans-serif;
+    font-weight: bold;
+}
+#techlogo img{
+    height: 40px;
+    width: 40px;
+}
+#intro{
+    font-family: Roboto;
+    font-weight: lighter;
+    font-size: 20px;
+
+}
+#teckStack{
+    background: #36ADA4;
+}
+#teckStack img{
+    height:100px;
+}
+.borderCircle {
+    height: 120px;
+    width: 120px;
+    background: #C5EFF8;
+}
