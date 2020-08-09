@@ -63,7 +63,7 @@
                     <p class="text-center text-white" id='intro'>An aspiring Front End Developer skilled in MERN stack,
                         moulded and shaped by Masai School's military style training. Actively ready to 
                         join a great team where I can participate for company's growth as well as personal growth. </p>
-                    <button class="text-center text-white btn btn-outline-danger border border-warning ">View Full Resume</button>                  
+                    <button class="text-center text-white btn btn-outline-danger border border-warning "><a class='text-white text-decoration-none' href="https://drive.google.com/file/d/1hCe5tMIuqGHAVA7cWNjyltKvTBHa4q7u/view?usp=sharing" target="#">View Full Resume</a></button>                  
                 </div>
             </div>
             <!-- Tech Stack -->
@@ -120,8 +120,8 @@
                     <div class="col-lg-4 col-md-4 col-6 pb-5 pl-5 text-center ">
                         
                         <div class="rounded-circle borderCircle">
-                            <img class='img-fluid mt-2' src="https://cdn.svgporn.com/logos/python.svg" alt="">
-                            <h4 class="pt-4">Python</h4>
+                            <img class='img-fluid mt-2' src="https://cdn.svgporn.com/logos/redux.svg" alt="">
+                            <h4 class="pt-4">Redux</h4>
                         </div>
                     </div>
                 </div>
@@ -216,7 +216,7 @@
                 </div>
             </div>
             <!-- stats & github -->
-            <div id='stats'class='col-12'>
+            <div class='container-lg border-warning bg-danger'>
                 <!-- stats -->
                 <div class="row text-center ">
                     <!-- coding -->
@@ -239,7 +239,7 @@
                     <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
 
                         <div style="height: 200px; width: 200px; border: 20px solid; border-color: white white  #FFC831   #FFC831 ;" class="rounded-circle stats offset-3">
-                            <h3 class="m-5  font-weight-bold pt-3 text-white"> 167+</h3>
+                            <h3 class="m-5  font-weight-bold pt-3 text-white"> 300+</h3>
                         </div>
                         <h3 class="font-weight-bold text-white">Git Commits</h3>
                     </div>
@@ -247,24 +247,26 @@
                     <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
 
                         <div style="height: 200px; width: 200px;border:20px solid;border-color: #FFC831 white white #FFC831" class="stats rounded-circle offset-3">
-                            <h3 class="m-5  font-weight-bold pt-3 text-white"> 200+</h3>
+                            <h3 class="m-5  font-weight-bold pt-3 text-white"> 100+</h3>
                         </div>
                         <h3 class="font-weight-bold text-white">Hours of Soft Skills</h3>
                     </div>
                 </div>
             </div>
             <!-- Prepare a container for your calendar. -->
-            <div class="calendar my-5">
+            <div class="calendar my-5 container-lg">
                 <!-- Loading stuff -->
                 Loading the data just for you.
             </div>
 
         </div>
     </div>
-    <!-- Include the library. -->
-    <script
-    src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
-    ></script>
-    <script src="script.js"></script>
 </body>
+<!-- Include the library. -->
+<script
+src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
+>
+GitHubCalendar(".calendar", "your-username", { responsive: true });
+</script>
+<script src="script.js"></script>
 </html>

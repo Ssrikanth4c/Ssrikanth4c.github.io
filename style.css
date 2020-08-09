@@ -1,5 +1,9 @@
-#profile, #stats{
+#profile{
 background: #0E6E84;
+}
+#stats{
+    background: #0E6E84;
+    
 }
 #profilePic img, .stats{
     height: 150px;
