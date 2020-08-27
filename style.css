@@ -10,6 +10,9 @@ background: #0E6E84;
     width: 150px;
     border: 15px solid #FFC831;
 }
+.personal-info:hover{
+    color: #e2dedd;
+}
 #smallCircle{
     background: #FFC831;
     height: 40px;
