@@ -32,6 +32,10 @@ nav li a:hover{
 background: #0E6E84;
  /* height: 100%; */
 }
+h4, h3{
+    font-family: 'Architects Daughter', cursive;
+}
+
 .home{
     background: #36ADA4;
 }
@@ -85,4 +89,25 @@ background: #0E6E84;
     font-family: Roboto;
     font-weight: lighter;
     font-size: 20px;
+}
+.card:hover .hover-info{
+    cursor: pointer;
+    left:0;
+}
+.card{
+    position: relative;
+    overflow: hidden;
+}
+.hover-info{
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    left:-100%;
+    background-color: rgba(169, 179, 42, 0.5);
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    
 }
