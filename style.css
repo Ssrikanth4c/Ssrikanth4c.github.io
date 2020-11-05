@@ -17,9 +17,13 @@ nav ul{
 nav li{
     font-family: 'Cedarville Cursive', cursive;
     font-size: 25px;
-    margin: 0 50px;
-    padding: 0 50px;
+    padding-right: 10;
     font-weight: bold;
+    transition: all 0.6s;
+}
+nav li:hover{
+    background-color: #FFC831;
+    border-radius: 15px 40px;
 }
 nav li a{
     color: #000000 !important;
